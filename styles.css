@@ -1,0 +1,131 @@
+/* General Body Styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Container for form and tables */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #550808;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Link Styling */
+a {
+    color: #624621;
+    text-decoration: none;
+    text-align: center; 
+    margin-top: 10px;
+    display: block;   
+}
+
+a:hover {
+    text-decoration: underline;
+    text-align: centre;
+}
+
+/* Form Styling */
+form {
+    display: grid;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input[type="text"], form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #624621;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #624621;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form a {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+}
+/* Style for login and register forms */
+form {
+    display: grid;
+    gap: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input[type="text"], form input[type="password"], form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #624621;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b7894c;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form a {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+}
